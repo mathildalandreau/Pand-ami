@@ -4,6 +4,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+imgaccueil{
+    width : 40vw;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1086,7 +1089,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #fff;
+  background-color: #FAFBC3;
 }
 input,
 button,
@@ -5032,11 +5035,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eeeeee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #FAFBC3;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -6831,4 +6834,29 @@ button.close {
     display: none !important;
   }
 }
+
+#imagepageaccueil {
+    width: 30vw;
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+}
+#blocpresentation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align : center;
+}
+#blocaccueil{
+    padding : 30px;
+    margin : 0 auto;
+    width : 1000px;
+}
+#blocgauche, #blocdroit{
+    margin : 0 auto;
+    width : 450px;
+    text-align : center;
+    align-items : center;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

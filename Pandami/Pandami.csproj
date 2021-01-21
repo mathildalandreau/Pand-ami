@@ -163,6 +163,9 @@
     <Content Include="Views\Accueil\Index.cshtml" />
     <Content Include="Views\GestionDemandes\Demandedeservice.cshtml" />
     <Content Include="Views\Utilisateur\Utilisateur.cshtml" />
+    <Content Include="Views\GestionDemandes\Recherchedeservice.cshtml" />
+    <Content Include="Views\GestionDemandes\Suividesdemandes.cshtml" />
+    <Content Include="Views\Utilisateur\Deconnexionview.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

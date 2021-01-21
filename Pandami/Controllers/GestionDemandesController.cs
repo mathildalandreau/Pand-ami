@@ -13,5 +13,15 @@ namespace Pandami.Controllers
         {
             return View();
         }
+
+        public ActionResult Suividesdemandes()
+        {
+            return View();
+        }
+
+        public ActionResult Recherchedeservice()
+        {
+            return View();
+        }
     }
 }

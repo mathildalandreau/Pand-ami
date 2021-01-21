@@ -14,5 +14,9 @@ namespace Pandami.Controllers
             return View();
         }
 
+        public ActionResult Deconnexionview()
+        {
+            return View();
+        }
     }
 }
