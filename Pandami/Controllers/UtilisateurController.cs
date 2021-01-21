@@ -9,9 +9,10 @@ namespace Pandami.Controllers
     public class UtilisateurController : Controller
     {
         // GET: Utilisateur
-        public ActionResult Index()
+        public ActionResult Utilisateur()
         {
             return View();
         }
+
     }
 }

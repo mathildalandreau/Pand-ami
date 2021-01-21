@@ -9,7 +9,7 @@ namespace Pandami.Controllers
     public class GestionDemandesController : Controller
     {
         // GET: GestionDemandes
-        public ActionResult Index()
+        public ActionResult Demandedeservice()
         {
             return View();
         }

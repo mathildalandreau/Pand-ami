@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Utilisateur";
+}
+
+<h2>Utilisateur</h2>
+<form  method="POST" action="" >
+    <p>Remplissez le formulaire ci-dessous</p>
+    <hr />
+    <table class="table table-bordered">
+        <tr>
+            <td><label>Nom:</label></td>
+            <td><input type="text" name="nom" /></td>
+        </tr>
+       
+      
+        <tr>
+            <td><label>Prenom:</label></td>
+            <td><input type="text" name="prenom" /></td>
+        </tr>
+        <tr>
+            <td><label>Adresse</label></td>
+            <td><input type="Text" name="Adresse" /></td>
+        </tr>
+        <tr>
+            <td><label>Numero de telephone </label></td>
+            <td><input type="tel" name="Telephone" /></td>
+        </tr>
+
+
+    </table>
+    <input type="checkbox" name="option" />
+    <label>J'accepte toutes les conditions d'utilisation</label>
+    <br />
+  
+    <input type="submit" value="Valider" name="valider" class="btn-primary" />
+</form>
+
